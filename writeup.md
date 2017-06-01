@@ -48,36 +48,32 @@ In order to draw a single line for the left and right lanes, I modified the houg
 Here is one example of an image that went through the pipeline: 
 
 
-<table width="700px" height="100%" border="1">
+<table width="600px" height="100%" border="1">
 
 <td align="center" valign="center">
 <img src="./writeup_images/original.png" width="300">
 <br />
 1. Original.
 <br /> 
-<img src="./writeup_images/original.png" width="300">
-<br />
-1. Original.
-<br /> 
 <img src="./writeup_images/gamma.png" width="300">
 <br />
-1. Original.
+3. Gamma Corrected.
 <br /> 
 <img src="./writeup_images/white.png" width="300">
 <br />
-1. Original.
+5. White Mask.
 <br /> 
 <img src="./writeup_images/roi.png" width="300">
 <br />
-1. Original.
+7. Region of Interest.
 <br /> 
 <img src="./writeup_images/canny.png" width="300">
 <br />
-1. Original.
+9. Canny Edges.
 <br /> 
 <img src="./writeup_images/output.png" width="300">
 <br />
-1. Original.
+11. Output.
 
 </td>
 
@@ -88,19 +84,19 @@ Here is one example of an image that went through the pipeline:
 <br />
 <img src="./writeup_images/yellow.png" width="300">
 <br />
-2.  Greyscale.
+4.  Yellow Mask.
 <br />
 <img src="./writeup_images/combined.png" width="300">
 <br />
-2.  Greyscale.
+6.  Combined Mask.
 <br />
 <img src="./writeup_images/blurred.png" width="300">
 <br />
-2.  Greyscale.
+8.  Gaussian Blurred.
 <br />
 <img src="./writeup_images/hough.png" width="300">
 <br />
-2.  Greyscale.
+10.  Hough Transform.
 
 </td>
 
