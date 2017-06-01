@@ -47,14 +47,14 @@ In order to draw a single line for the left and right lanes, I modified the houg
 
 Here is one example of an image that went through the pipeline: 
 
-Original:
-<img src="./writeup_images/original.png" width="200">			![alt text][image2]			![alt text][image3]
 
-![alt text][image4]			![alt text][image5]			![alt text][image6]
+<img src="./writeup_images/original.png" width="300">			<img src="./writeup_images/greyscale.png" width="300">			<img src="./writeup_images/gamma.png" width="300">
 
-![alt text][image7]			![alt text][image8]			
+<img src="./writeup_images/yellow.png" width="300">			<img src="./writeup_images/white.png" width="300">			<img src="./writeup_images/combined.png" width="300">
 
-![alt text][image9]			![alt text][image10]			![alt text][image11]		
+<img src="./writeup_images/roi.png" width="300">			<img src="./writeup_images/blurred.png" width="300">			
+
+<img src="./writeup_images/canny.png" width="300">			<img src="./writeup_images/hough.png" width="300">			<img src="./writeup_images/output.png" width="300">		
 
 
 ### 2. Potential shortcomings with the chosen pipeline
