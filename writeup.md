@@ -12,7 +12,7 @@ The detector operates on each frame of the movie and outputs an annotated video.
 [//]: # (Image References)
 
 [image1]: ./writeup_images/original.png "Original"
-[image2]: ./writeup_images/grayscale.png "Grayscale"
+[image2]: ./writeup_images/greyscale.png "Grayscale"
 [image3]: ./writeup_images/gamma.png "Gamma"
 [image4]: ./writeup_images/yellow.png "Yellow"
 [image5]: ./writeup_images/white.png "White"
@@ -46,7 +46,7 @@ The pipeline implemented here consists of 10 steps. These are described here:
 In order to draw a single line for the left and right lanes, I modified the hough_lines() function in order to use the output of the Hough Transform as input to another auxiliary function (lane_lines()) that calculates the interpolation and outputs two lines. This is the output that is later passed to draw_lines(). The interpolation is done by calculating the slope of each line, it's y-axis intercept -y @(x=0)- and the value of x @(y = image height). Depending on the sign of the slope and the location of the x-axis intercept, I classified the lines as belonging to the left line, the right line or none (in which case they were discarded). The slopes of the lines in the resulting two groups are further inspected for outliers farther away than 1.5 standard deviations from the mean and those outliers are removed. This step ensures robustness of the detector. The remaining lines in each group are averaged using the lines length as a weight and a single line (described by slope and y-intercept) results from each group. 
 
 
-![alt text][image1]			![alt text][image2]			![alt text][image3]
+![alt text][image1]{:height="200px"}			![alt text][image2]			![alt text][image3]
 
 ![alt text][image4]			![alt text][image5]			![alt text][image6]
 
