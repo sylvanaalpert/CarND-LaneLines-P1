@@ -50,7 +50,7 @@ Here is one example of an image that went through the pipeline:
 
 <table width="600px" height="100%" border="1">
 
-<td align="center" valign="center">
+<td align="center" valign="top">
 <img src="./writeup_images/original.png" width="300">
 <br />
 1. Original.
@@ -77,7 +77,7 @@ Here is one example of an image that went through the pipeline:
 
 </td>
 
-<td align="center" valign="center">
+<td align="center" valign="top">
 <img src="./writeup_images/greyscale.png" width="300">
 <br />
 2.  Greyscale.
