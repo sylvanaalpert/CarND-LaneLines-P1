@@ -110,7 +110,7 @@ Here is one example of an image that went through the pipeline:
 
 Potential shortcomings and issues not addressed in this project include: 
 1. Other cars or objects located in front of the car (on the same lane and therefore inside the region of interest). In particular, white and yellow objects would be hard to remove from the region of interest. 
-1. Lane shifting is not addressed here, as the lanes are expected to be a specific location of the image. This assumption would be violated when the driver shifts lanes and the detector would fail to properly identify the lines. 
+1. Lane shifting is not addressed here, as the lanes are expected to be at a specific location of the image. This assumption would be violated when the driver shifts lanes and the detector would fail to properly identify the lines. 
 1. A curvy road. The current implementation identifies lines in the form y = ax + b and a spline or higher-degree polynomial would be needed to adapt to curves in the road. 
 1. Warning traffic signs that could appear close to the lane line and could potentially be picked up by the yellow color mask.  
 
